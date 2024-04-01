@@ -1,0 +1,119 @@
+body{
+  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0),rgb(76, 76, 76)),url(../img/s\ \(1\).jpg);
+  background-color: rgba(193, 247, 245, 0.438);
+  background-size: cover;
+ }
+ .container{
+  width: 1000px;
+  height:1000px;
+  margin:0 auto;
+  background-color: rgba(255, 255, 255, 0.784);
+  border: 0.5px solid ;
+}
+header{
+  background-color: rgb(67, 167, 167);
+ }
+.header-font{
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+  }
+  .nav{
+    background-color: rgb(0, 0, 0);
+  }
+  .ul-list{
+    height:65px;
+    list-style:none;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40px;
+    text-shadow: 2px 2px rgb(0, 0, 0); 
+  }
+  .nav a{
+    display: flex;
+    width:120px;
+    height:40px;
+    background-color: rgb(67, 167, 167);
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    line-height:40px;
+    margin-right: 30px;
+    margin-top: 10px;
+    text-decoration:none;
+    border-radius: 5px;
+    justify-content: center;
+  }
+  .ul-list a:hover{
+    background-color: rgb(67, 144, 144);
+    color: rgb(255, 255, 255);
+ }
+ section{
+  width: 500px;
+  height: 700px;
+  float: left;
+ }
+ .section-content{
+  padding-left: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+.h2-font{
+  width:120px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 10px;
+  background-color: rgb(67, 167, 167);
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px black;
+  border-radius: 5px;
+  border-left: 10px solid rgb(120, 219, 120);
+}
+.img{
+  margin-left: 20px;
+ }
+ aside{
+  width:400px;
+  height:700px;
+  float: right;
+  border-left: 1px dotted;
+ }
+ .ul-list1{
+  list-style: none; 
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24
+}
+ aside a:link {
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    font-weight: bold;
+  }
+  aside a:visited{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  aside a:hover{
+    text-decoration:underline;
+    background-color: rgb(95, 206, 206);
+  }
+ .footer{
+    height: 153px;
+    background-color: rgb(67, 167, 167);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 153px;
+    clear: both;
+  }
